@@ -1,0 +1,170 @@
+{
+  "291843": {
+    "uninformed": [
+      "Cleaned and sharpened the carving into crisp, bright white limestone.",
+      "Added no paint at all, although the museum records that the relief was painted and some color survives.",
+      "Redrew the herdsman's body and pose; he now holds a staff he does not have in the carving."
+    ],
+    "supported": [
+      "Flat, unshaded paint in Old Kingdom conventions: red-brown skin, black hair, a white loincloth.",
+      "The register line along the top painted as a colored band.",
+      "The man, the cow and the rope kept in their carved positions."
+    ],
+    "invented": [
+      "Large horns on the cow that the surviving carving does not show.",
+      "New hieroglyphs. The carved signs at upper center became different signs, so the painted caption no longer says what the stone says.",
+      "Fresh paint laid over ancient pitting and chips, mixing 'new' and 'damaged' in one image."
+    ],
+    "verdict": "Evidence brought back the color the record mentions, but the model rewrote the one piece of text on the block. A visitor would have no way to know the caption is invented."
+  },
+  "291708": {
+    "uninformed": [
+      "Cleaned the head and kept the slab's broken outline, as if the fragment were the whole work.",
+      "Added a tasselled necklace that is not in the carving.",
+      "No color, though the museum notes these reliefs were painted."
+    ],
+    "supported": [
+      "A full standing winged figure, as the record says the slab showed.",
+      "A band of cuneiform carved straight across the body, matching the record's 'standard inscription' running across the genie.",
+      "Restrained paint: black hair and beard, red touches on the wings and robe."
+    ],
+    "invented": [
+      "It removed the horned cap, the detail the record singles out as marking him as divine, and gave him a plain domed cap.",
+      "It turned the figure around: the surviving head faces left, the reconstruction faces right.",
+      "The face and beard were redrawn rather than kept, and the cuneiform band is almost certainly decorative marks rather than Ashurnasirpal's actual text."
+    ],
+    "verdict": "The most convincing image of the nine, and it is wrong in two ways a specialist would notice in seconds: the god has lost his horns and faces the wrong way."
+  },
+  "291721": {
+    "uninformed": [
+      "Completed the wings, but folded them upward around the figure inside a huge ring.",
+      "Kept the grey stone unpainted, though the record lists traces of blue, green and red.",
+      "Treated the trimmed collector's block as the original shape."
+    ],
+    "supported": [
+      "Long horizontal wings and a tail, the familiar form of the Achaemenid winged disk.",
+      "Paint in exactly the three colors whose traces survive: blue, green and red.",
+      "Curling streamers below the ring, as in other Achaemenid versions of the motif."
+    ],
+    "invented": [
+      "A whole doorway, with the god mounted on the lintel facing out. The record places him high inside the doorway, above a carved scene of the enthroned king carried by the empire's peoples, which the model left out.",
+      "Saturated, glossy color that reads as modern enamel rather than paint on limestone.",
+      "The god's carved details are simplified at this scale."
+    ],
+    "verdict": "The evidence-led version gets the motif and the palette right and the architecture wrong. It restored the sculpture and lost the setting that gave it meaning: the god blessing the king."
+  },
+  "292169": {
+    "uninformed": [
+      "Filled the cracks and the missing corner of red, and repainted the worn vignettes, giving the kneeling figure a full blue robe.",
+      "Restored the modern wooden museum frame as if it were part of the painting.",
+      "Kept to the fragment's edges: a cleaner strip, not a wall."
+    ],
+    "supported": [
+      "A red wall with a gold frieze above and a dark dado below, the scheme the record describes.",
+      "Thin painted columns and candelabra dividing the red into panels, characteristic of the Third Style.",
+      "A framed picture at the center of the main zone."
+    ],
+    "invented": [
+      "The frieze itself. The fragment's white bands with red fleur-de-lis disappear, replaced by garlands and extra vignettes.",
+      "The central picture, a cupid scene in a much later style. The large pictures from this room are known: those now in the Metropolitan Museum show Polyphemus and Galatea, and Perseus and Andromeda.",
+      "The wall's proportions and the number of panels."
+    ],
+    "verdict": "A good guess at the type of wall and a poor guess at this wall. The evidence that would fix it exists in another museum, which is the case for reconstructions made by people who can go and look."
+  },
+  "292555": {
+    "uninformed": [
+      "Polished the head into flawless white marble and kept it a bust.",
+      "Invented a new nose and filled every break, which modern conservators no longer do.",
+      "No paint, the white-marble ideal in its purest form."
+    ],
+    "supported": [
+      "An acrolith: marble face, hands and feet on a body of painted and gilded drapery.",
+      "Light paint on the marble: tinted hair, colored eyes and lips.",
+      "No attributes naming a specific goddess, as the prompt asked, because the record does not identify her."
+    ],
+    "invented": [
+      "The face and hair. The head is no longer this head: the hairstyle changed and the face aged.",
+      "The seated pose came from my prompt, not from the evidence. The record does not say whether she sat or stood.",
+      "Cinematic oil-lamp lighting and a temple interior with reliefs on every wall."
+    ],
+    "verdict": "The idea of an acrolith comes through well, and it is the one thing a visitor looking at a white head would never guess. But the model would not keep the actual face, which is the only part that survives."
+  },
+  "215515": {
+    "uninformed": [
+      "Rewove the band as new: crisp edges, bright pink, the frayed border gone.",
+      "Turned the small hanging tassel at the bottom into a long cord.",
+      "Kept Dionysos, the lion and the griffin close to the original design."
+    ],
+    "supported": [
+      "A plain, undyed linen tunic with two matching bands from the shoulders.",
+      "The pink panel, floral border and figures repeated in the bands.",
+      "Fresh wool colors, plausible for a new garment."
+    ],
+    "invented": [
+      "Bands running all the way to the hem. The Harvard band ends in a rounded tip with a hanging ornament, a common way for clavi to stop partway down; the model ignored that and repeated the pattern to the floor.",
+      "The tunic's cut, length and neckline.",
+      "The real comparison, the tunic front in Boston that probably wore the twin band, could not be given to the model at all."
+    ],
+    "verdict": "The evidence answered 'what kind of thing was this?' well. The fragment itself held the answer to 'how long was the band?', and the model did not read it."
+  },
+  "291530": {
+    "uninformed": [
+      "Completed the woman as a bust and cleaned the whole panel, including the uncleaned left half.",
+      "Turned her head upright and frontal; in the mosaic it tilts to the right.",
+      "Kept the 1935 wooden shipping crate as part of the work."
+    ],
+    "supported": [
+      "A dancing female figure carrying purple and pink flowers, fitting the Dionysiac medallions of this floor.",
+      "Green glass accents and colored stone tesserae.",
+      "The tilted head and the pointed frame kept."
+    ],
+    "invented": [
+      "Her clothing, colors and pose, all of which are lost.",
+      "The frame was not completed into an ellipse; it still runs off the bottom of the panel.",
+      "The shipping crate, again, in both versions."
+    ],
+    "verdict": "The two versions show the model's habit of treating everything in the photograph as the artwork. A crate from the 1935 excavation became part of a 4th-century floor."
+  },
+  "217153": {
+    "uninformed": [
+      "Covered the whole background in gold leaf, which the painting never had.",
+      "Repainted abraded areas and smoothed the figures' faces.",
+      "Kept the trimmed outline: a cutout, not a page."
+    ],
+    "supported": [
+      "A full manuscript page: text panels above and below, ruled frames, cream paper and margins.",
+      "Four columns of text, as on the back of the surviving folio.",
+      "Parts of the painting, like the tree, extending beyond the ruled frame, as the museum describes."
+    ],
+    "invented": [
+      "The text. It looks like Persian nasta'liq, but it is not the poem: several lines simply repeat the poet's name, 'Nizami'.",
+      "The painting was shrunk and simplified to fit the new page.",
+      "The layout and proportions of text to image."
+    ],
+    "verdict": "The most dangerous image of the nine, because fake writing looks like evidence. A reader who cannot read Persian would take it as the lost page."
+  },
+  "12231": {
+    "uninformed": [
+      "Replaced the lump of plaster with a blue faience scarab inscribed with hieroglyphs.",
+      "It seems to have read 'Egyptian blue' as 'Egyptian object'.",
+      "Nothing of the fragment survives in the result."
+    ],
+    "supported": [
+      "Mud plaster, a white lime-wash coat and flat Egyptian blue, the three things the laboratory found.",
+      "No figures, scenes or text, as the prompt asked."
+    ],
+    "invented": [
+      "The rectangular panel layout, which the fragment cannot show.",
+      "How large the blue areas were, and where."
+    ],
+    "verdict": "The Venice Charter in one pair of images. The honest reconstruction is almost an abstract painting, because conjecture began almost immediately. The confident one is a different object."
+  },
+  "_findings": [
+    "<b>With no evidence, the model mostly cleans.</b> In six of nine cases the uninformed prompt produced a tidied version of the fragment (sharper carving, filled cracks, rewoven threads) rather than the missing whole. 'Restore' meant 'make it look new', not 'show what is lost'.",
+    "<b>It assumes bare stone.</b> Asked to restore with no evidence, it painted none of the four stone pieces, though the museum records paint on three of them. Given the evidence, it painted all four. The white-marble bias that reconstructions like <i>Gods in Color</i> argue against is the model's default.",
+    "<b>It can't tell the artwork from the museum.</b> It restored a modern picture frame, kept a 1935 shipping crate in both versions of the mosaic, and gilded a background that was never gold. Everything in the photograph counts as the object.",
+    "<b>Evidence fixes what you ask about and nothing else.</b> The evidence-led images got the asked-for things right: pigment colors, the inscription band, the acrolith's materials, the page layout. Unasked details moved without warning. The genie lost his horns and turned around, the cow grew horns, a hieroglyphic caption changed, and Persian verse turned into the poet's name repeated.",
+    "<b>The prompt is a reconstruction too.</b> The goddess is seated because my prompt said so, not because anything shows it. Evidence-led prompting doesn't remove conjecture; it moves it from the model to the person writing the prompt, who now carries the conservator's responsibility to mark it.",
+    "<b>The best image is the least impressive one.</b> For the Khorsabad plaster, the uninformed model invented a scarab and the evidence-led model painted a nearly blank wall. Brandi and the Venice Charter would choose the blank wall. A generative model has to be told to stop where conjecture begins, and even then it does not show you where that was."
+  ]
+}

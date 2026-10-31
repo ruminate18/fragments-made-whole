@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fragments Made Whole</title>
+<meta name="description" content="Nine broken works from the Harvard Art Museums, restored twice by an AI image model: once with no evidence, once with the museum's evidence. What does the machine invent?">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a conservator's report. Each case is a bench: the fragment, two attempts, and the notes that judge them. */
+:root {
+  --stone: #f3f4f1;      /* plaster-white, cool */
+  --sheet: #ffffff;
+  --ink: #1c1f1d;
+  --muted: #5d645f;
+  --rule: #d6dad4;
+  --verdigris: #276b5d;  /* evidence */
+  --ochre: #a4511c;      /* invention */
+  --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --sans: "IBM Plex Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --stone: #141716; --sheet: #1c201e; --ink: #e6e9e5; --muted: #a0a8a2; --rule: #2f3532; --verdigris: #6fc2ad; --ochre: #e5935c; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: var(--stone); color: var(--ink); font: 400 1rem/1.62 var(--sans);
+       padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); }
+a { color: var(--verdigris); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--verdigris); outline-offset: 3px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 56px 80px; display: grid; gap: 64px; }
+.mono { font-family: var(--mono); }
+.label { font: 500 .72rem/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--verdigris); }
+
+/* Opening */
+.intro { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 48px; align-items: end; }
+h1 { font: 400 clamp(3rem, 8vw, 6.2rem)/.95 var(--serif); margin: 14px 0 0; letter-spacing: -.02em; text-wrap: balance; }
+h1 i { color: var(--verdigris); }
+.dek { font: 400 1.3rem/1.45 var(--serif); margin: 22px 0 0; max-width: 34rem; }
+.byline { font: 400 .82rem var(--mono); color: var(--muted); margin-top: 18px; }
+.method { border-left: 2px solid var(--verdigris); padding: 4px 0 4px 20px; display: grid; gap: 10px; font-size: .95rem; }
+.method b { font-weight: 600; }
+.method p { margin: 0; }
+.method code { font-family: var(--mono); font-size: .84em; background: var(--sheet); padding: 1px 5px; border: 1px solid var(--rule); }
+.essay { columns: 2 22rem; column-gap: 48px; font: 400 1.08rem/1.65 var(--serif); }
+.essay p { margin: 0 0 1em; break-inside: avoid-column; }
+.essay p:first-child::first-letter { font-size: 3.4em; float: left; line-height: .85; padding: 6px 8px 0 0; color: var(--verdigris); }
+
+/* Index */
+.toc ol { list-style: none; margin: 14px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 28px; }
+.toc a { display: grid; grid-template-columns: 34px minmax(0, 1fr); column-gap: 6px; padding: 12px 0; border-top: 1px solid var(--rule); color: var(--ink); text-decoration: none; }
+.toc a:hover { color: var(--verdigris); }
+.toc span { font: 500 .8rem/1.6 var(--mono); color: var(--muted); grid-row: span 2; }
+.toc em { font: 400 .74rem/1.4 var(--mono); color: var(--ochre); font-style: normal; grid-column: 2; }
+
+/* Cases */
+.case { display: grid; gap: 22px; padding-top: 36px; border-top: 2px solid var(--ink); scroll-margin-top: 16px; }
+.case-head { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 22px; align-items: start; }
+.case-num { font: 400 3.4rem/0.9 var(--serif); color: var(--verdigris); }
+.loss { font: 500 .72rem/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ochre); }
+.case h3 { font: 400 clamp(1.5rem, 3vw, 2.1rem)/1.12 var(--serif); margin: 8px 0 6px; text-wrap: balance; }
+.tomb { margin: 0; font-size: .88rem; color: var(--muted); }
+.triptych { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: start; }
+figure { margin: 0; display: grid; gap: 8px; min-width: 0; }
+figure .zoom { all: unset; cursor: zoom-in; display: block; background: var(--sheet); border: 1px solid var(--rule); aspect-ratio: 1; }
+figure .zoom:focus-visible { outline: 2px solid var(--verdigris); outline-offset: 2px; }
+figure img { width: 100%; height: 100%; object-fit: contain; display: block; }
+figure.gen .zoom { border-color: var(--rule); }
+figcaption { font-size: .82rem; color: var(--muted); line-height: 1.4; }
+figcaption b { color: var(--ink); font-weight: 600; }
+.pending { aspect-ratio: 1; display: grid; place-items: center; border: 1px dashed var(--rule); color: var(--muted); font: 400 .8rem var(--mono); }
+.case-body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 32px; align-items: start; }
+h4 { font: 500 .72rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; margin: 0 0 10px; color: var(--muted); }
+h4.ok { color: var(--verdigris); }
+h4.bad { color: var(--ochre); }
+ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: .93rem; }
+.evidence { background: var(--sheet); border: 1px solid var(--rule); padding: 18px 20px; display: grid; gap: 14px; }
+details summary { cursor: pointer; font: 500 .8rem var(--mono); color: var(--verdigris); }
+.prompt { font: 400 .84rem/1.55 var(--mono); color: var(--muted); margin: 10px 0 0; }
+.reading { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.reading > div { min-width: 0; }
+.verdict { grid-column: 1 / -1; margin: 0; font: 400 1.08rem/1.55 var(--serif); border-top: 1px solid var(--rule); padding-top: 14px; }
+.verdict b { font-family: var(--sans); font-size: .9rem; }
+.case-body .verdict { grid-column: 2; }
+
+/* Findings */
+.findings { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 40px; padding-top: 36px; border-top: 2px solid var(--ink); }
+.findings h2 { font: 400 clamp(2rem, 4vw, 3rem)/1 var(--serif); margin: 10px 0 0; }
+.findings ol { margin: 0; padding-left: 1.3em; display: grid; gap: 14px; font: 400 1.08rem/1.55 var(--serif); }
+footer { border-top: 1px solid var(--rule); padding-top: 22px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; font-size: .86rem; color: var(--muted); }
+footer h4 { color: var(--ink); }
+footer ul { font-size: .86rem; }
+
+/* Lightbox */
+.lightbox { position: fixed; inset: 0; background: rgba(12, 14, 13, .92); display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) 16px; z-index: 20; cursor: zoom-out; }
+.lightbox img { max-width: 100%; max-height: 92vh; object-fit: contain; }
+[hidden] { display: none !important; }
+
+@media (max-width: 1100px) {
+  .case-body { grid-template-columns: minmax(0, 1fr); }
+  .case-body .verdict { grid-column: 1; }
+}
+@media (max-width: 900px) {
+  .intro, .case-body, .findings, footer { grid-template-columns: minmax(0, 1fr); }
+  .case-body .verdict { grid-column: 1; }
+  .reading { grid-template-columns: minmax(0, 1fr); }
+  .toc ol { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .wrap { padding-block: 32px 56px; gap: 44px; }
+  .triptych { grid-template-columns: minmax(0, 1fr); }
+  .toc ol { grid-template-columns: minmax(0, 1fr); }
+  .case-num { font-size: 2.4rem; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="intro">
+    <div>
+      <div class="label">Harvard Art Museums · generative AI · restoration</div>
+      <h1>Fragments Made <i>Whole</i></h1>
+      <p class="dek">Nine broken works, each restored twice by an image model: once knowing nothing, once knowing what the museum knows. The question is what the machine makes up.</p>
+      <p class="byline">A course project by ruminate18 · built with the Harvard Art Museums API and Prodia</p>
+    </div>
+    <div class="method">
+      <div class="label">The experiment</div>
+      <p><b>Same model, same photograph, two prompts.</b> Every fragment's museum photograph went to the same image model (Gemini 3 Pro, through Prodia) twice.</p>
+      <p><b>Uninformed:</b> <code>{{UNINFORMED}}</code>, the same words for every object.</p>
+      <p><b>Evidence-led:</b> a prompt built only from the museum's record and published scholarship, which tells the model what survives, what is known and what not to add.</p>
+      <p>Then each result was read against the record: what the evidence supports, and what the model invented. {{N_IMAGES}} images, {{SPENT}} of course credit.</p>
+    </div>
+  </section>
+
+  <section class="essay" aria-label="Background">
+    <p>Almost everything in an archaeology gallery is a piece of something larger. A head without its body, a band without its tunic, a painting cut out of its book. Museums answer the question "what was the rest?" carefully, because the answer becomes what visitors believe. The 1964 Venice Charter, still the reference point for conservators, says restoration "must stop at the point where conjecture begins." Cesare Brandi's theory of restoration asked that any new work be recognizable as new when you look closely, so no one mistakes a repair for the original.</p>
+    <p>Generative image models don't stop where conjecture begins. Ask one to restore a fragment and it answers at once, in seamless high resolution, with no visible join between what survives and what it imagined. That is the Ecce Homo problem at machine speed: in 2012 an amateur's well-meant repainting of a fresco in Borja, Spain, replaced a damaged face with a new one. The difference is that the model's version looks right.</p>
+    <p>The models also carry assumptions. Ancient sculpture and relief were painted, but centuries of white marble in museums trained the modern eye, and probably the training data, to expect bare stone. Reconstructions like Vinzenz Brinkmann's <i>Gods in Color</i> still surprise visitors. So the experiment asks two things of each fragment. What does a model assume when it knows nothing? And when the prompt carries the museum's evidence (pigment traces, the slab next door in another museum, the tunic in Boston), does the guess get better, or only more confident?</p>
+    <p>The nine works come from the Harvard Art Museums and were chosen for the kind of loss they show: lost color, lost body, lost room, lost garment, lost floor, lost page, and in the last case, almost everything. Each case below shows the fragment, both reconstructions, the evidence, and a reading of what the evidence supports and what the model invented.</p>
+  </section>
+
+  <nav class="toc" aria-label="Cases">
+    <div class="label">Nine cases</div>
+    <ol>{{TOC}}</ol>
+  </nav>
+
+  {{CASES}}
+
+  <section class="findings" aria-label="Findings">
+    <div><div class="label">Across nine cases</div><h2>What the experiment shows</h2></div>
+    <ol>{{FINDINGS}}</ol>
+  </section>
+
+  <footer>
+    <div>
+      <h4>Sources</h4>
+      <ul>
+        <li>Object records, images and provenance: Harvard Art Museums collection API. Images © President and Fellows of Harvard College, used for study.</li>
+        <li>International Charter for the Conservation and Restoration of Monuments and Sites (Venice Charter), 1964, Article 9.</li>
+        <li>Cesare Brandi, <i>Teoria del restauro</i>, 1963 (English: <i>Theory of Restoration</i>, 2005).</li>
+        <li>Vinzenz Brinkmann and Raimund Wünsche, eds., <i>Gods in Color: Painted Sculpture of Classical Antiquity</i>, 2007.</li>
+      </ul>
+    </div>
+    <div>
+      <h4>How it was made</h4>
+      <ul>
+        <li>Images generated with Gemini 3 Pro (image-to-image) through the course's Prodia proxy, one call per image, no retries chosen for looks: every result is shown.</li>
+        <li>Source code, prompts, cost log and method: <a href="https://github.com/ruminate18/fragments-made-whole">github.com/ruminate18/fragments-made-whole</a>.</li>
+        <li>AI reconstructions are speculative images, not evidence. Do not reuse them as depictions of the originals.</li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+<div class="lightbox" id="lightbox" hidden><img alt=""></div>
+<script>
+const box = document.getElementById("lightbox"), boxImg = box.querySelector("img");
+document.addEventListener("click", (ev) => {
+  const z = ev.target.closest(".zoom");
+  if (z) { boxImg.src = z.dataset.full; boxImg.alt = z.querySelector("img").alt; box.hidden = false; return; }
+  if (!box.hidden) box.hidden = true;
+});
+document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") box.hidden = true; });
+</script>
+</body>
+</html>

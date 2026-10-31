@@ -1,0 +1,121 @@
+{
+  "model": "inference.gemini-3-pro.img2img.v1",
+  "uninformed_prompt": "Restore this damaged artwork to show how it originally looked when it was complete and new.",
+  "cases": [
+    {
+      "id": 291843,
+      "slug": "niankhnesut",
+      "loss": "Lost color, lost tomb",
+      "short": "A herdsman and his cow from a tomb wall at Saqqara",
+      "evidence": [
+        "Carved in shallow raised relief and originally painted; some color is still visible (museum record).",
+        "From the mastaba tomb of the official Niankhnesut at Saqqara, Dynasty 6. Found in 1917 already disturbed; at least 60 fragments were sold and are now in at least fifteen museums in eight countries.",
+        "A raised line along the top marks the edge of a register, and a hieroglyphic caption sits at upper center.",
+        "Old Kingdom painters used flat mineral colors with set conventions: red-brown skin for men, black hair, outlines in black or red, and individually painted hieroglyphs."
+      ],
+      "prompt": "Repaint this ancient Egyptian limestone relief exactly as it looked when newly finished in an Old Kingdom tomb at Saqqara, about 2300 BCE. Keep the carving, figures, composition, and the block's edges exactly the same; do not add anything beyond them. Apply flat, matte mineral paint following Old Kingdom conventions: the herdsman's skin red-brown ochre, his hair black, his short loincloth white; the cow's coat painted in solid color with dark details; the rope dark; crisp black and red outlines; each hieroglyph at upper center painted separately in blue, green, red and black; a pale grey-white background; the raised register line along the top painted as a colored band. No shading, no gloss, no modern lighting effects."
+    },
+    {
+      "id": 291708,
+      "slug": "nimrud-genie",
+      "loss": "Lost body",
+      "short": "The head of a winged protective spirit from Ashurnasirpal II's throne room",
+      "evidence": [
+        "Part of slab B-22 in the throne room (Room B) of Ashurnasirpal II's Northwest Palace at Nimrud, placed to the right of the throne base (museum record).",
+        "The genie wears the horned cap of a deity and was probably performing a ritual. The king's 'standard inscription' ran across the figure's body.",
+        "The legs below the knees stayed in place in the palace; the middle of the figure does not survive. The neighbouring slab B-23 is in the British Museum.",
+        "The museum notes the reliefs were originally enhanced by paint."
+      ],
+      "prompt": "Show the complete Neo-Assyrian alabaster wall relief this carved head came from, as it looked when new in King Ashurnasirpal II's throne room at Nimrud, about 870 BCE. Keep the head, the horned cap, the beard, and the carving style exactly as in the photograph, and continue the slab downward to show the whole standing figure in profile facing left: a bearded winged protective spirit with two large feathered wings, wearing a fringed robe, armlets and bracelets, performing a ritual gesture. Carve a band of cuneiform inscription in horizontal lines straight across the middle of the figure's body and robe, in the same low relief. Keep the stone mostly its natural pale alabaster color with restrained paint: black hair and beard, black outlines of the eyes, and touches of red on details. Plain uncarved background. Show the full slab head to feet."
+    },
+    {
+      "id": 291721,
+      "slug": "ahuramazda",
+      "loss": "Lost color, trimmed edges",
+      "short": "The god in the winged disk from a doorway at Persepolis",
+      "evidence": [
+        "From the west side of the southeast doorway of the Hall of 100 Columns at Persepolis, reign of Xerxes I and Artaxerxes I, 486–460 BCE (museum record).",
+        "The figure hovered high inside the doorway above an image of the enthroned king, who was carried by representatives of the empire's subject peoples. Most of the doorway is still at Persepolis.",
+        "The block's top and bottom edges are smooth where it joined other blocks; its sides are ragged, where it was trimmed to make a collector's item.",
+        "Traces of blue, green and red paint remain on the limestone (museum record)."
+      ],
+      "prompt": "Show this Achaemenid Persian limestone relief block as it looked when new, high in a doorway at Persepolis around 470 BCE. Keep the god's figure, his crown, beard, raised hand, the ring around his waist and the carving exactly as in the photograph. Restore what was trimmed off the sides: complete the winged disk with two long, straight, horizontal wings of layered feathers spreading symmetrically to left and right, and the feathered tail below the ring, in the same carved style. Paint the relief with the colors whose traces survive: blue, green and red, applied to the feathers, the crown, the robe and the ring, leaving the background as smooth pale grey limestone. Show the whole wide block, flat and frontal."
+    },
+    {
+      "id": 292169,
+      "slug": "boscotrecase",
+      "loss": "Lost room",
+      "short": "A strip of wall from the villa at Boscotrecase",
+      "evidence": [
+        "From the 'Mythological Room' (room 19) of the villa at Boscotrecase near Pompeii, about 10–1 BCE; an inscription suggests the owner was Agrippa Postumus, Augustus's grandson (museum record).",
+        "It comes from the top register of red-paneled walls: a golden frieze between narrow white bands with red fleur-de-lis, above a bright red panel.",
+        "Two vignettes survive in the gold band: a kneeling figure in a blue headdress and red garment, and two birds at a puddle of water. The secco paint has worn.",
+        "A fine example of the Pompeian Third Style, with its thin, delicate architecture and Egyptianizing details favored after the victory over Cleopatra."
+      ],
+      "prompt": "Zoom out from this Roman wall painting fragment to show the whole painted wall of the room it came from, as it looked when new around 10 BCE in a villa near Pompeii. Keep this exact strip, with its golden frieze, small vignettes, white bands with red fleur-de-lis and the red below, as the upper zone of the wall. Below it, show the large main zone in the same bright red, in the refined Pompeian Third Style: very thin, delicate painted columns and candelabra dividing the red into panels, and at the center a framed mythological landscape picture with small figures. At the bottom, a dark dado. Flat frontal view of the wall, fresh unfaded fresco colors, no furniture and no people in the room."
+    },
+    {
+      "id": 292555,
+      "slug": "acrolith",
+      "loss": "Lost body",
+      "short": "A marble head from a Roman cult statue of a goddess",
+      "evidence": [
+        "An acrolithic head from a Roman cult statue of a goddess, late 2nd century CE, carved from Greek island marble (museum record).",
+        "In an acrolith, only the exposed parts (head, hands, feet) were marble. The body was made of cheaper materials such as wood, then covered with drapery, gilding or paint.",
+        "The goddess's identity is not recorded; the head was acquired together with another acrolithic head (1905.7).",
+        "Ancient marble statues were usually painted, at least in the hair, eyes and lips."
+      ],
+      "prompt": "Show the complete Roman cult statue this marble head came from, as it stood when new in a temple around 180 CE. It is an acrolith: keep this exact marble head, with its face, hairstyle and expression unchanged, and set it on an over-life-size seated goddess whose body is made of wood covered in richly painted and gilded drapery, a long chiton and a mantle, with marble hands and marble feet. Paint the marble lightly: warm tinted hair, colored eyes and lips. Do not identify her with attributes of any specific goddess. Show the whole statue on a stone base inside a dim temple room."
+    },
+    {
+      "id": 215515,
+      "slug": "dionysos-clavus",
+      "loss": "Lost garment",
+      "short": "A woven band showing Dionysos, cut from a tunic",
+      "evidence": [
+        "A tapestry-woven shoulder band (clavus), Egypt, about 400–500 CE: Dionysos, nude with a blue halo, a cape, sandals and a thyrsus, with a charging lion below and a griffin above, on a pink panel inside a floral border (museum record).",
+        "An identical band is the right band on a tunic front at the Museum of Fine Arts, Boston (96.355); both came from Denman Ross's collection and likely belonged to the same garment.",
+        "Late Roman tunics from Egypt were woven of undyed linen with pairs of clavi running from the shoulders down the front and back."
+      ],
+      "prompt": "Show the complete late Roman tunic from Egypt (about 450 CE) that this woven band was cut from, laid flat and seen from the front, as it looked when new. It is a wide, T-shaped tunic of plain undyed cream linen with sleeves. Two identical vertical bands like this one run from the shoulders straight down the front, one on each side; keep this band's design exactly: the pink panel, the floral border, Dionysos with his halo and staff, the lion and the griffin, and make the second band its twin. Fresh, unfaded wool colors. Plain neutral background, museum flat-lay photograph."
+    },
+    {
+      "id": 291530,
+      "slug": "maenad",
+      "loss": "Lost floor",
+      "short": "A maenad from a Dionysiac floor in a villa at Antioch",
+      "evidence": [
+        "From room 1 of the Constantinian Villa at Daphne, a suburb of Antioch, 325–350 CE; excavated in 1935 (museum record).",
+        "One of several medallions with Dionysiac themes in a large pavement, including Dionysos, a satyr and Silenus; the best-preserved, a dancing satyr, is in the Baltimore Museum of Art.",
+        "What survives: a female head tilted to the right with brown hair, a bundle of deep purple and pink flowers, traces of green glass, inside a pointed frame that would have formed an ellipse.",
+        "The right half was cleaned and conserved; the left half is still in the condition it was lifted in."
+      ],
+      "prompt": "Show this Roman floor mosaic panel as it looked when new, around 330 CE in a villa at Antioch. Keep the stone and glass tesserae technique, the pointed frame and its border pattern, and the woman's head, hair and flowers exactly as preserved. Complete the frame into a full pointed ellipse and complete the figure inside it: a maenad, a female follower of Dionysos, shown to the waist or in a dancing pose, carrying the bundle of purple and pink flowers, her garment in colored tesserae with green glass accents, on a white tessera ground. Clean the whole surface to the bright, even colors of the conserved right half. Seen from directly above."
+    },
+    {
+      "id": 217153,
+      "slug": "haft-paykar",
+      "loss": "Lost page",
+      "short": "A painting cut from a Persian manuscript of Nizami",
+      "evidence": [
+        "Cut from a folio of Nizami's Haft Paykar (The Seven Beauties), Iran, about 1410; the painting was trimmed to keep the parts that extended beyond the gold ruling (museum record).",
+        "The back of the folio preserves four columns of text in nineteen lines of nasta'liq script.",
+        "The painting conflates two moments of a tale told to Bahram Gur: a young man enters his own garden through a breach in the wall and finds maidens bathing in his pool.",
+        "Only 8.5 × 5.2 cm survives."
+      ],
+      "prompt": "Show the complete manuscript page this Persian painting was cut from, as it looked when new around 1410: a folio from a manuscript of Nizami's poem Haft Paykar. Keep the painting exactly as it is, set within the page so that parts of it, like the building and tree, extend past the gold ruled frame into the margin. Above and below the painting, add panels of Persian verse in four columns of black nasta'liq calligraphy, separated by thin gold and colored rulings, on cream paper with wide plain margins. Flat, frontal view of the single page."
+    },
+    {
+      "id": 12231,
+      "slug": "khorsabad-blue",
+      "loss": "Almost everything",
+      "short": "A lump of painted mud plaster from Sargon II's palace",
+      "evidence": [
+        "From the Palace of Sargon at Khorsabad, found by the University of Chicago's Oriental Institute expedition (museum record).",
+        "Laboratory study found Egyptian blue pigment on a white priming coat of impure lime whitewash over mud plaster (museum record).",
+        "That is all the fragment can tell us: there is no surviving image, edge or pattern."
+      ],
+      "prompt": "Show the section of wall this small fragment came from, as it looked when new around 710 BCE in the palace of the Assyrian king Sargon II at Khorsabad: a mud-plaster wall with a white lime-wash priming coat, painted in part with Egyptian blue. Use only what the fragment proves: mud plaster, white lime wash, and areas of bright Egyptian blue paint. Do not invent figures, scenes or text."
+    }
+  ]
+}
